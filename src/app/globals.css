@@ -5,82 +5,101 @@ All colors MUST be HSL.
 */
 
 :root {
-  --background: 0 0% 100%;
-  --foreground: 222.2 84% 4.9%;
+  /* Aurora Light Theme (Fallback) */
+  --background: 220 15% 95%;
+  --foreground: 220 15% 15%;
 
-  --card: 0 0% 100%;
-  --card-foreground: 222.2 84% 4.9%;
+  --card: 220 15% 98%;
+  --card-foreground: 220 15% 15%;
 
-  --popover: 0 0% 100%;
-  --popover-foreground: 222.2 84% 4.9%;
+  --popover: 220 15% 98%;
+  --popover-foreground: 220 15% 15%;
 
-  --primary: 222.2 47.4% 11.2%;
-  --primary-foreground: 210 40% 98%;
+  --primary: 280 100% 45%;
+  --primary-foreground: 0 0% 100%;
 
-  --secondary: 210 40% 96.1%;
-  --secondary-foreground: 222.2 47.4% 11.2%;
+  --secondary: 220 15% 90%;
+  --secondary-foreground: 220 15% 25%;
 
-  --muted: 210 40% 96.1%;
-  --muted-foreground: 215.4 16.3% 46.9%;
+  --muted: 220 15% 90%;
+  --muted-foreground: 220 15% 45%;
 
-  --accent: 210 40% 96.1%;
-  --accent-foreground: 222.2 47.4% 11.2%;
+  --accent: 45 100% 65%;
+  --accent-foreground: 220 15% 15%;
 
-  --destructive: 0 84.2% 60.2%;
-  --destructive-foreground: 210 40% 98%;
+  --destructive: 0 75% 60%;
+  --destructive-foreground: 0 0% 100%;
 
-  --border: 214.3 31.8% 91.4%;
-  --input: 214.3 31.8% 91.4%;
-  --ring: 222.2 84% 4.9%;
+  --border: 220 15% 85%;
+  --input: 220 15% 90%;
+  --ring: 280 100% 45%;
 
-  --radius: 0.5rem;
+  --radius: 0.75rem;
 
-  --sidebar-background: 0 0% 98%;
-  --sidebar-foreground: 240 5.3% 26.1%;
-  --sidebar-primary: 240 5.9% 10%;
-  --sidebar-primary-foreground: 0 0% 98%;
-  --sidebar-accent: 240 4.8% 95.9%;
-  --sidebar-accent-foreground: 240 5.9% 10%;
-  --sidebar-border: 220 13% 91%;
-  --sidebar-ring: 217.2 91.2% 59.8%;
+  /* Aurora Brand Colors */
+  --aurora-gold: 45 100% 65%;
+  --aurora-rose-gold: 15 80% 70%;
+  --aurora-purple: 280 100% 45%;
+  --aurora-deep-purple: 270 50% 25%;
+  --aurora-dark: 220 25% 8%;
+  --aurora-darker: 220 30% 5%;
+
+  --sidebar-background: 220 15% 92%;
+  --sidebar-foreground: 220 15% 25%;
+  --sidebar-primary: 280 100% 45%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 220 15% 88%;
+  --sidebar-accent-foreground: 220 15% 25%;
+  --sidebar-border: 220 15% 85%;
+  --sidebar-ring: 280 100% 45%;
 }
 
 .dark {
-  --background: 222.2 84% 4.9%;
-  --foreground: 210 40% 98%;
+  /* Aurora Dark Theme - Main Theme */
+  --background: 220 30% 5%;
+  --foreground: 0 0% 95%;
 
-  --card: 222.2 84% 4.9%;
-  --card-foreground: 210 40% 98%;
+  --card: 220 25% 8%;
+  --card-foreground: 0 0% 95%;
 
-  --popover: 222.2 84% 4.9%;
-  --popover-foreground: 210 40% 98%;
+  --popover: 220 25% 8%;
+  --popover-foreground: 0 0% 95%;
 
-  --primary: 210 40% 98%;
-  --primary-foreground: 222.2 47.4% 11.2%;
+  --primary: 45 100% 65%;
+  --primary-foreground: 220 30% 5%;
 
-  --secondary: 217.2 32.6% 17.5%;
-  --secondary-foreground: 210 40% 98%;
+  --secondary: 220 20% 12%;
+  --secondary-foreground: 0 0% 95%;
 
-  --muted: 217.2 32.6% 17.5%;
-  --muted-foreground: 215 20.2% 65.1%;
+  --muted: 220 20% 12%;
+  --muted-foreground: 0 0% 70%;
 
-  --accent: 217.2 32.6% 17.5%;
-  --accent-foreground: 210 40% 98%;
+  --accent: 45 100% 65%;
+  --accent-foreground: 220 30% 5%;
 
-  --destructive: 0 62.8% 30.6%;
-  --destructive-foreground: 210 40% 98%;
+  --destructive: 0 75% 60%;
+  --destructive-foreground: 0 0% 95%;
 
-  --border: 217.2 32.6% 17.5%;
-  --input: 217.2 32.6% 17.5%;
-  --ring: 212.7 26.8% 83.9%;
-  --sidebar-background: 240 5.9% 10%;
-  --sidebar-foreground: 240 4.8% 95.9%;
-  --sidebar-primary: 224.3 76.3% 48%;
-  --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 240 3.7% 15.9%;
-  --sidebar-accent-foreground: 240 4.8% 95.9%;
-  --sidebar-border: 240 3.7% 15.9%;
-  --sidebar-ring: 217.2 91.2% 59.8%;
+  --border: 220 20% 15%;
+  --input: 220 20% 12%;
+  --ring: 45 100% 65%;
+
+  /* Aurora Brand Colors - Dark Mode */
+  --aurora-gold: 45 100% 65%;
+  --aurora-rose-gold: 15 85% 75%;
+  --aurora-purple: 280 100% 60%;
+  --aurora-deep-purple: 270 60% 35%;
+  --aurora-dark: 220 25% 8%;
+  --aurora-darker: 220 30% 5%;
+
+  --sidebar-background: 220 25% 8%;
+  --sidebar-foreground: 0 0% 95%;
+  --sidebar-primary: 45 100% 65%;
+  --sidebar-primary-foreground: 220 30% 5%;
+  --sidebar-accent: 220 20% 12%;
+  --sidebar-accent-foreground: 0 0% 95%;
+  --sidebar-border: 220 20% 15%;
+  --sidebar-ring: 45 100% 65%;
 }
 
 @theme {
@@ -160,4 +179,67 @@ All colors MUST be HSL.
 body {
   background-color: hsl(var(--background));
   color: hsl(var(--foreground));
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+}
+
+/* Aurora Platform Specific Styles */
+.aurora-gradient {
+  background: linear-gradient(135deg,
+    hsl(var(--aurora-deep-purple)) 0%,
+    hsl(var(--aurora-purple)) 50%,
+    hsl(var(--aurora-gold)) 100%);
+}
+
+.aurora-gold-gradient {
+  background: linear-gradient(135deg,
+    hsl(var(--aurora-rose-gold)) 0%,
+    hsl(var(--aurora-gold)) 100%);
+}
+
+.aurora-card-gradient {
+  background: linear-gradient(135deg,
+    hsl(var(--card)) 0%,
+    hsl(var(--aurora-dark)) 100%);
+}
+
+.aurora-text-gradient {
+  background: linear-gradient(135deg,
+    hsl(var(--aurora-gold)) 0%,
+    hsl(var(--aurora-rose-gold)) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.aurora-glow {
+  box-shadow: 0 0 20px hsla(var(--aurora-gold) / 0.3);
+}
+
+.aurora-border-gradient {
+  border: 1px solid transparent;
+  background: linear-gradient(hsl(var(--background)), hsl(var(--background))) padding-box,
+              linear-gradient(135deg, hsl(var(--aurora-gold)), hsl(var(--aurora-purple))) border-box;
+}
+
+/* Smooth scrolling for mobile */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Remove text selection highlighting on interactive elements */
+button, .cursor-pointer {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
