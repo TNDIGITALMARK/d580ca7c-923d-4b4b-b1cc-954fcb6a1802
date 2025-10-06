@@ -10,7 +10,7 @@ import {
   Video, VideoOff, Mic, MicOff, Phone, PhoneOff, Settings,
   Volume2, VolumeX, Camera, CameraOff, Users, Heart,
   Star, Gift, MessageCircle, Maximize, Minimize,
-  RotateCcw, Pause, Play, Record, StopCircle
+  RotateCcw, Pause, Play, Circle, StopCircle
 } from "lucide-react"
 
 export default function VideoCallPage() {
@@ -196,7 +196,7 @@ export default function VideoCallPage() {
             onClick={() => setIsRecording(!isRecording)}
             className="w-14 h-14 rounded-full"
           >
-            {isRecording ? <StopCircle className="w-6 h-6" /> : <Record className="w-6 h-6" />}
+            {isRecording ? <StopCircle className="w-6 h-6" /> : <Circle className="w-6 h-6" />}
           </Button>
 
           {/* End Call */}
